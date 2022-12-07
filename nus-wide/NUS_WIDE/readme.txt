@@ -1,0 +1,1 @@
+Please download NUS_WIDE dataset (https://lms.comp.nus.edu.sg/wp-content/uploads/2019/research/nuswide/NUS-WIDE.html) and unzip to this folder

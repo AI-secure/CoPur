@@ -1,0 +1,2 @@
+model_checkpoint_path: "ae_ckpt.tf"
+all_model_checkpoint_paths: "ae_ckpt.tf"
