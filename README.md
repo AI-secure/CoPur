@@ -1,6 +1,6 @@
 # CoPur: Certifiably Robust Collaborative Inference via Feature Purification
 
-This repository is the official implementation of "[CoPur: Certifiably Robust Collaborative Inference via Feature Purification](https://openreview.net/pdf?id=r5rzV51GZx)". 
+This repository is the official implementation of "[CoPur: Certifiably Robust Collaborative Inference via Feature Purification](https://openreview.net/forum?id=r5rzV51GZx)". 
 
 # Download and Installation
 The required packages can be installed by:
@@ -74,4 +74,19 @@ python sensor_infer_attack.py --use_ae  --L_lr 0.001 --text_feature_div 0 26 52 
 5. Inference under targeted attack
 ```
 python sensor_infer_attack.py --use_ae  --L_lr 0.001 --text_feature_div 0 26 52 83 129 138 155 183 209 213 221 --targeted 1 
+```
+
+
+## Citation
+If you find our work useful in your research, please consider citing:
+```
+@inproceedings{
+liu2022copur,
+title={CoPur: Certifiably Robust Collaborative Inference via Feature Purification},
+author={Jing Liu and Chulin Xie and Oluwasanmi O Koyejo and Bo Li},
+booktitle={Advances in Neural Information Processing Systems},
+editor={Alice H. Oh and Alekh Agarwal and Danielle Belgrave and Kyunghyun Cho},
+year={2022},
+url={https://openreview.net/forum?id=r5rzV51GZx}
+}
 ```
